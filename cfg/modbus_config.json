@@ -1,0 +1,20 @@
+{
+	"port" : "/dev/ttyUSB0",
+	"baud_rate" : 19200,
+	"data_bit" : 8,
+	"parity": "N",
+	"stop_bits": 2,
+	"relaybox_addr" : 3,
+	"powermeter1_addr" : 1,
+	"powermeter2_addr" : 2,
+	"first_powermeter_register" : 7689,
+	"size_of_measure" : 19,
+	"delay_measure_timer" : 1,
+	"delay_scenario_relays" : 2,
+	"relay_start_to_write" : 1,
+	"relay_start_to_read" : 2,
+	"nbr_of_relays_to_write" : 8,
+	"nbr_of_relays_to_read" : 6,
+	"scenario_file_path" : "/home/pi/Desktop/SmartFutureAppz/cfg/scenario_relays/scenario.csv",
+	"saved_data_path" : "/home/pi/Desktop/SmartFutureAppz/cfg/data_record"
+}

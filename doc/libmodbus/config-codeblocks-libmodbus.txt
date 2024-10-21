@@ -1,0 +1,10 @@
+Pour compiler avec libmodbus et codeblocks, il faut ajouter :
+
+
+`pkg-config --libs --cflags libmodbus`
+
+
+
+dans :
+
+clic droit sur pojet > built options > linker settings > Other linker options
